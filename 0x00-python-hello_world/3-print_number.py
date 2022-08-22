@@ -2,4 +2,4 @@
 
 number = 98
 
-printf(f"{number} Battery street")
+print(f"{number} Battery street")
