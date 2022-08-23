@@ -6,7 +6,7 @@ if number > 0:
 elif number == 0:
     ldigit = 0
 else:
-    ldigit = (-1 * number) % 10
+    ldigit = ((-1 * number) % 10) * -1
 print("Last digit of {} is {} ".format(number, ldigit), end="")
 if ldigit > 5:
     print("and is greater than 5")
