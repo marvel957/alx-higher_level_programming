@@ -3,8 +3,8 @@ def print_last_digit(number):
     if number > 0:
         ldigit = number % 10
     elif number < 0:
-        ldigit = ((-1 * number) % 10) * -1
+        ldigit = (-1 * number) % 10
     else:
         ldigit = 0
-    print(ldigit,end='')
+    print(ldigit, end='')
     return ldigit
